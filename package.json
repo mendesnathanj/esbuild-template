@@ -1,0 +1,23 @@
+{
+  "name": "esbuild-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node esbuild.config.js",
+    "start": "node esbuild.config.js -w"
+  },
+  "type": "module",
+  "dependencies": {
+    "@types/react": "^17.0.41",
+    "@types/react-dom": "^17.0.14",
+    "esbuild": "^0.14.27",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "esbuild-serve": "^1.0.1"
+  }
+}
